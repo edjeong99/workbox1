@@ -1,2 +1,2 @@
 # workbox1
-learning workbox to build PWA
+This project is used to learn/test workbox which build PWA
