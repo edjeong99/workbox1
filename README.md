@@ -1,3 +1,14 @@
+This is a personal project to learn more about implement PWA using Workbox.
+
+The code for a simple note taking is from https://codepen.io/marekdano/pen/bVNYpq and I made a few changes.
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
