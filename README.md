@@ -2,8 +2,7 @@ This is a personal project to learn more about implement PWA using Workbox.
 
 The code for a simple note taking is from https://codepen.io/marekdano/pen/bVNYpq and I made a few changes.
 
-
-
+It is published to workbox1.surge.sh
 
 
 
