@@ -22,10 +22,11 @@ const isLocalhost = Boolean(
 
 export function register(config) {
   console.log(
-    'SW register function    process.env.NODE_ENV = ',
-    process.env.NODE_ENV
+    'SW register function    serviceWorker in navigator = ',
+    'serviceWorker' in navigator
   );
   if (process.env.NODE_ENV === 'production' && 'serviceWorker' in navigator) {
+    console.log('SW register function inside first if');
     // The URL constructor is available in all browsers that support SW.
     const publicUrl = new URL(process.env.PUBLIC_URL, window.location.href);
     if (publicUrl.origin !== window.location.origin) {
@@ -35,7 +36,7 @@ export function register(config) {
       // serve assets; see https://github.com/facebook/create-react-app/issues/2374
       return;
     }
-
+    console.log('SW register function IN origin');
     window.addEventListener('load', () => {
       const swUrl = `${process.env.PUBLIC_URL}/service-worker.js`;
 
